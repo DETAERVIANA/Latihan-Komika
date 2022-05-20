@@ -1,0 +1,114 @@
+#BIODATA IDOLAKU
+print('========================================================')
+print('|                    PROGRAM BIODATA                   |')
+print('========================================================')
+print('|                    Biodata Idolaku                   |')
+print('========================================================')
+print('| Nama           = Stephen Curry                       |')
+print('| Gender         = Male                                |')
+print('| TTL            = Akron,Ohio, 14 MARET 1988           |')
+print('| Kebangsaan     = Amerika Serikat                     |')
+print('| Usia           =  34 Tahun                           |')
+print('| Tinggi         = 191 cm                              |')
+print('| Berat_Badan    = 86 kg                               |')
+print('| Perguan_Tinggi = Davidson (2006-2009)                |')
+print('| Draft_NBA      = 2009/Babak : 1/Pick : 7             |')
+print('| Pekerjaan      = Pebasket Profesional                |')
+print('| Liga           = NBA                                 |')
+print('| Posisi         = Point Guard,Shooting Guard          |')
+print('| Karier_Bermain = 2009-Sekarang                       |')
+print('| Klub           = Golden State Warriors               |')
+print('========================================================')
+
+
+# Buat Program untuk menyapa User
+Nama = input("\nMasukkan Nama :")
+print("Halo", Nama,","" Selamat Datang di Kelas Pemula Python")
+
+# Program Untuk Menghitung Luas Ruangan
+
+# Luas Ruangan adalah Panjang x Lebar
+
+print("Program Untuk Menghitung Luas Ruangan")
+panjang = float(input("Masukka Ukuran Panjang (dalam satuan meter):"))
+lebar = float(input("Masukkan Ukuran Lebar (dalam satuan meter):"))
+hasil = panjang * lebar
+print("Jadi, Ukuran Ruangan adalah :", hasil,"Meter")
+
+# Program untuk menjumlahkan bilangan bulat dari 1 sampai N
+
+# Kita tahu bahwa rumus untuk menghitung jumlah bilangan positif adalah : (n)x(n+1)/2
+
+print("Program Penjmumlahan Bilangan Bulat\n")
+n = int(input('Masukkan Bilangan Terbesar Pada Pada Deret :'))
+jumlah = int(((n) * (n + 1))/2)
+print("Jumlah Bilangan untuk n =",n, "adalah :", jumlah)
+
+# Konversi Satuan Kaki, Satuan inci terhadapa sentimeter
+
+print("Program Konversi Satuan Tinggi Badan\n")
+Centimeter = float(input("Masukkan Ukuran Tinggi Badan (dalam cm):"))
+print("Tinggi Badan Kamu adalah :", Centimeter, "cm")
+
+# Satuan Kaki (ft)
+
+feet = (0.0328084*Centimeter)
+print("Dalam satuan kaki tinggi badan kamu adalah:", feet, "ft")
+
+# Satuan Inci (inch)
+
+inch = (0.393701*Centimeter)
+print("Dalam satuan inci tinggi badan kamu adalah:", inch, "inch")
+
+# Program Konversi Satuan Jarak
+
+print("Program Konversi Satuan Jarak\n")
+# ft --> inci, yard, mile, km
+
+feet = float(input('Masukkan Satuan Jarak (dalam ft) :'))
+print("Jaraknya adalah", feet, "ft")
+
+inci = (12 * feet)
+yard = (0.333333 * feet)
+mile = (0.000189394 * feet)
+km = (0.0003048 * feet)
+
+print("Dalam Inci Satuan Jarak adalah :", inci, "inch")
+print("Dalam Inci Satuan Jarak adalah :", yard, "yard")
+print("Dalam Inci Satuan Jarak adalah :", mile, "mile")
+print("Dalam Inci Satuan Jarak adalah :", km, "km")
+
+# Program menghitung luas segitiga
+
+# Rumus luas segitiga adalah : (a x t)/2
+
+print("Program Untuk Menghitung Luas Segitiga\n")
+panjang_alas = float(input("Masukkan nilai alas yang akan dihitung (dalam cm) :"))
+tinggi = float(input("Masukkan nilai tinggi yang akan dihitung (dalam cm)"))
+hasil = ((panjang_alas * tinggi)/2)
+print("Jadi Luas Area Segitiga adalah :",hasil, "centimeter persegi")
+
+# Program Untuk Menghitung Body Mass Index (BMI)
+# Rumus untuk menghitung BMI adalah : weight /(height * height)
+
+print("\nProgram Untuk Menghitung BMI")
+weight = float(input("Masukkan Berat Badan (dalam satuan kg) :"))
+height = float(input("Masukkan Tinggi Badan (dalam satuan meter)"))
+hasil = float((weight/(height * height)))
+print("Jadi nilai BMI adalah :",hasil)
+
+#Program Membuat Unit Tekanan
+
+Tekanan = float(input("Masukkan Tekanan :"))
+print("Tekanan :",Tekanan,"Kilopascal")
+
+Tekanan_psi = Tekanan*0.159004
+print("Tekanan :", Tekanan_psi,"psi")
+
+Tekanan_mmHg = Tekanan_psi*65.5789
+print("Tekanan :",Tekanan_mmHg,"mmHg")
+
+Tekanan_atm = Tekanan*0.57090830
+print("Tekanan :",Tekanan_atm,"atm")
+
+
